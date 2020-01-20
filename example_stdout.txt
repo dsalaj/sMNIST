@@ -1,0 +1,213 @@
+This is the stdout of a lucky run where LSTM learned very well.
+$ python3 train_sMNIST.py
+
+{                                                                                                                                                           
+    "model": "LSTM",                      
+    "num_hidden": 128,                                                                                                                                      
+    "lr": 0.001,                                                       
+    "training_steps": 36000,                            
+    "batch_size": 256,                                                                                                                      
+    "print_every": 200,                                                                                           
+    "decay_lr_steps": 3000,                                                                                                                        
+    "ext_time": 1                                                                         
+}   
+
+TOTAL PARAMS 67850                                      
+Step 1, Minibatch Loss= 2.7067, Test Accuracy= 0.111    
+Step 200, Minibatch Loss= 2.2982, Test Accuracy= 0.135  
+Step 400, Minibatch Loss= 2.2919, Test Accuracy= 0.113  
+Step 600, Minibatch Loss= 2.2718, Test Accuracy= 0.188  
+Step 800, Minibatch Loss= 1.8758, Test Accuracy= 0.269  
+Step 1000, Minibatch Loss= 1.6945, Test Accuracy= 0.337 
+Step 1200, Minibatch Loss= 1.5953, Test Accuracy= 0.393 
+Step 1400, Minibatch Loss= 1.8767, Test Accuracy= 0.224 
+Step 1600, Minibatch Loss= 1.6359, Test Accuracy= 0.373 
+Step 1800, Minibatch Loss= 1.4907, Test Accuracy= 0.441 
+Step 2000, Minibatch Loss= 1.5352, Test Accuracy= 0.410
+Step 2200, Minibatch Loss= 1.3909, Test Accuracy= 0.439 
+Step 2400, Minibatch Loss= 1.3870, Test Accuracy= 0.447 
+Step 2600, Minibatch Loss= 1.2852, Test Accuracy= 0.494 
+Step 2800, Minibatch Loss= 1.2773, Test Accuracy= 0.484 
+Decaying learning rate: 0.001 -> 0.00095                
+Step 3000, Minibatch Loss= 1.2678, Test Accuracy= 0.517 
+Step 3200, Minibatch Loss= 1.2737, Test Accuracy= 0.486 
+Step 3400, Minibatch Loss= 1.3363, Test Accuracy= 0.468 
+Step 3600, Minibatch Loss= 1.3364, Test Accuracy= 0.493 
+Step 3800, Minibatch Loss= 1.2211, Test Accuracy= 0.529 
+Step 4000, Minibatch Loss= 1.3353, Test Accuracy= 0.485 
+Step 4200, Minibatch Loss= 1.2836, Test Accuracy= 0.495 
+Step 4400, Minibatch Loss= 1.0941, Test Accuracy= 0.610 
+Step 4600, Minibatch Loss= 1.2129, Test Accuracy= 0.548                                                                                                     
+Step 4800, Minibatch Loss= 1.0017, Test Accuracy= 0.638 
+Step 5000, Minibatch Loss= 0.9209, Test Accuracy= 0.693
+Step 5200, Minibatch Loss= 1.3039, Test Accuracy= 0.481 
+Step 5000, Minibatch Loss= 0.9209, Test Accuracy= 0.693                                                                                             [84/1753]
+Step 5200, Minibatch Loss= 1.3039, Test Accuracy= 0.481
+Step 5400, Minibatch Loss= 1.3532, Test Accuracy= 0.454
+Step 5600, Minibatch Loss= 1.1490, Test Accuracy= 0.595
+Step 5800, Minibatch Loss= 1.0667, Test Accuracy= 0.638
+Decaying learning rate: 0.00095 -> 0.0009
+Step 6000, Minibatch Loss= 0.9812, Test Accuracy= 0.670
+Step 6200, Minibatch Loss= 1.2646, Test Accuracy= 0.530
+Step 6400, Minibatch Loss= 0.9152, Test Accuracy= 0.683
+Step 6600, Minibatch Loss= 0.8858, Test Accuracy= 0.691
+Step 6800, Minibatch Loss= 0.8239, Test Accuracy= 0.723
+Step 7000, Minibatch Loss= 0.9035, Test Accuracy= 0.689
+Step 7200, Minibatch Loss= 0.9655, Test Accuracy= 0.699
+Step 7400, Minibatch Loss= 0.7956, Test Accuracy= 0.724
+Step 7600, Minibatch Loss= 2.4023, Test Accuracy= 0.101
+Step 7800, Minibatch Loss= 2.3174, Test Accuracy= 0.090
+Step 8000, Minibatch Loss= 2.3200, Test Accuracy= 0.103
+Step 8200, Minibatch Loss= 2.3204, Test Accuracy= 0.085
+Step 8400, Minibatch Loss= 2.3059, Test Accuracy= 0.102
+Step 8600, Minibatch Loss= 2.3103, Test Accuracy= 0.097
+Step 8800, Minibatch Loss= 2.3223, Test Accuracy= 0.107
+Decaying learning rate: 0.0009 -> 0.00086
+Step 9000, Minibatch Loss= 2.3049, Test Accuracy= 0.098
+Step 9200, Minibatch Loss= 2.3016, Test Accuracy= 0.115
+Step 9400, Minibatch Loss= 2.3026, Test Accuracy= 0.113
+Step 9600, Minibatch Loss= 2.3042, Test Accuracy= 0.103
+Step 9800, Minibatch Loss= 2.3068, Test Accuracy= 0.094
+Step 10000, Minibatch Loss= 2.3113, Test Accuracy= 0.091
+Step 10200, Minibatch Loss= 2.3031, Test Accuracy= 0.114
+Step 10400, Minibatch Loss= 2.3069, Test Accuracy= 0.110
+Step 10600, Minibatch Loss= 2.3044, Test Accuracy= 0.120
+Step 10800, Minibatch Loss= 2.3024, Test Accuracy= 0.109
+Step 11000, Minibatch Loss= 2.3013, Test Accuracy= 0.113
+Step 11200, Minibatch Loss= 2.3020, Test Accuracy= 0.107
+Step 11400, Minibatch Loss= 2.3044, Test Accuracy= 0.101
+Step 11600, Minibatch Loss= 2.3170, Test Accuracy= 0.083
+Step 11800, Minibatch Loss= 2.3035, Test Accuracy= 0.103
+Decaying learning rate: 0.00086 -> 0.00081
+Step 12000, Minibatch Loss= 2.2981, Test Accuracy= 0.119
+Step 12200, Minibatch Loss= 2.2880, Test Accuracy= 0.144
+Step 12400, Minibatch Loss= 1.9879, Test Accuracy= 0.255
+Step 12600, Minibatch Loss= 1.7033, Test Accuracy= 0.375
+Step 12800, Minibatch Loss= 1.7278, Test Accuracy= 0.339
+Step 13000, Minibatch Loss= 1.6579, Test Accuracy= 0.350
+Step 13200, Minibatch Loss= 1.5455, Test Accuracy= 0.357
+Step 13400, Minibatch Loss= 1.4009, Test Accuracy= 0.454
+Step 13600, Minibatch Loss= 1.3182, Test Accuracy= 0.492
+Step 13800, Minibatch Loss= 1.3444, Test Accuracy= 0.497
+Step 14000, Minibatch Loss= 1.0216, Test Accuracy= 0.623
+Step 14200, Minibatch Loss= 0.7756, Test Accuracy= 0.722
+Step 14400, Minibatch Loss= 0.7092, Test Accuracy= 0.746
+Step 14600, Minibatch Loss= 0.5451, Test Accuracy= 0.807
+Step 14800, Minibatch Loss= 0.4977, Test Accuracy= 0.814
+Decaying learning rate: 0.00081 -> 0.00077
+Step 15000, Minibatch Loss= 0.5029, Test Accuracy= 0.815
+Step 15200, Minibatch Loss= 0.5013, Test Accuracy= 0.814
+Step 15400, Minibatch Loss= 0.4593, Test Accuracy= 0.831
+Step 15600, Minibatch Loss= 0.4164, Test Accuracy= 0.854
+Step 15800, Minibatch Loss= 0.4170, Test Accuracy= 0.833
+Step 16000, Minibatch Loss= 0.6243, Test Accuracy= 0.768
+Step 16200, Minibatch Loss= 0.3205, Test Accuracy= 0.882
+Step 16400, Minibatch Loss= 0.3864, Test Accuracy= 0.869
+Step 16600, Minibatch Loss= 0.3400, Test Accuracy= 0.891
+Step 16800, Minibatch Loss= 0.3058, Test Accuracy= 0.909
+Step 17000, Minibatch Loss= 0.2601, Test Accuracy= 0.925
+Step 17200, Minibatch Loss= 0.2419, Test Accuracy= 0.930
+Step 17400, Minibatch Loss= 0.1781, Test Accuracy= 0.946
+Step 17600, Minibatch Loss= 0.2855, Test Accuracy= 0.916
+Step 17800, Minibatch Loss= 0.1705, Test Accuracy= 0.955
+Decaying learning rate: 0.00077 -> 0.00074
+Step 18000, Minibatch Loss= 0.1677, Test Accuracy= 0.948
+Step 18200, Minibatch Loss= 0.3873, Test Accuracy= 0.876
+Step 18400, Minibatch Loss= 0.1420, Test Accuracy= 0.957
+Step 18600, Minibatch Loss= 0.1537, Test Accuracy= 0.956
+Step 18800, Minibatch Loss= 0.1300, Test Accuracy= 0.964
+Step 19000, Minibatch Loss= 0.1379, Test Accuracy= 0.962
+Step 19200, Minibatch Loss= 0.1489, Test Accuracy= 0.966
+Step 19400, Minibatch Loss= 0.1290, Test Accuracy= 0.968
+Step 19600, Minibatch Loss= 0.1244, Test Accuracy= 0.961
+Step 19800, Minibatch Loss= 0.1018, Test Accuracy= 0.972
+Step 20000, Minibatch Loss= 0.1339, Test Accuracy= 0.966
+Step 20200, Minibatch Loss= 0.0833, Test Accuracy= 0.979
+Step 20400, Minibatch Loss= 0.1019, Test Accuracy= 0.976
+Step 20600, Minibatch Loss= 0.1044, Test Accuracy= 0.970                                                                                                    
+Step 20800, Minibatch Loss= 0.0915, Test Accuracy= 0.977
+
+Decaying learning rate: 0.00074 -> 0.0007
+Step 21000, Minibatch Loss= 0.1311, Test Accuracy= 0.967
+Step 21200, Minibatch Loss= 0.0963, Test Accuracy= 0.967
+Step 21400, Minibatch Loss= 0.1442, Test Accuracy= 0.964
+Step 21600, Minibatch Loss= 0.0889, Test Accuracy= 0.971
+Step 21800, Minibatch Loss= 0.0801, Test Accuracy= 0.979
+Step 22000, Minibatch Loss= 0.0782, Test Accuracy= 0.979
+Step 22200, Minibatch Loss= 0.1163, Test Accuracy= 0.966
+Step 22400, Minibatch Loss= 0.0919, Test Accuracy= 0.974
+Step 22600, Minibatch Loss= 0.0728, Test Accuracy= 0.979
+Step 22800, Minibatch Loss= 0.1102, Test Accuracy= 0.971
+Step 23000, Minibatch Loss= 0.0833, Test Accuracy= 0.974
+Step 23200, Minibatch Loss= 0.0671, Test Accuracy= 0.980
+Step 23400, Minibatch Loss= 0.0735, Test Accuracy= 0.979
+Step 23600, Minibatch Loss= 0.0788, Test Accuracy= 0.981
+Step 23800, Minibatch Loss= 0.0769, Test Accuracy= 0.979
+Decaying learning rate: 0.0007 -> 0.00066
+Step 24000, Minibatch Loss= 0.0740, Test Accuracy= 0.979
+Step 24200, Minibatch Loss= 0.0676, Test Accuracy= 0.980
+Step 24400, Minibatch Loss= 0.0810, Test Accuracy= 0.979
+Step 24600, Minibatch Loss= 0.0704, Test Accuracy= 0.979
+Step 24800, Minibatch Loss= 0.0701, Test Accuracy= 0.980
+Step 25000, Minibatch Loss= 0.0681, Test Accuracy= 0.977
+Step 25200, Minibatch Loss= 0.0417, Test Accuracy= 0.984
+Step 25400, Minibatch Loss= 0.0860, Test Accuracy= 0.978
+Step 25600, Minibatch Loss= 0.0561, Test Accuracy= 0.981
+Step 25800, Minibatch Loss= 0.0706, Test Accuracy= 0.978
+Step 26000, Minibatch Loss= 0.0580, Test Accuracy= 0.979
+Step 26200, Minibatch Loss= 0.0766, Test Accuracy= 0.977
+Step 26400, Minibatch Loss= 0.0631, Test Accuracy= 0.984
+Step 26600, Minibatch Loss= 0.0989, Test Accuracy= 0.972
+Step 26800, Minibatch Loss= 0.0722, Test Accuracy= 0.983
+Decaying learning rate: 0.00066 -> 0.00063
+Step 27000, Minibatch Loss= 0.0720, Test Accuracy= 0.979
+Step 27200, Minibatch Loss= 0.0523, Test Accuracy= 0.984
+Step 27400, Minibatch Loss= 0.0492, Test Accuracy= 0.981
+Step 27600, Minibatch Loss= 0.0690, Test Accuracy= 0.984
+Step 27800, Minibatch Loss= 0.0810, Test Accuracy= 0.982
+Step 28000, Minibatch Loss= 0.0686, Test Accuracy= 0.976
+Step 28200, Minibatch Loss= 0.0861, Test Accuracy= 0.978
+Step 28400, Minibatch Loss= 0.0283, Test Accuracy= 0.990
+Step 28600, Minibatch Loss= 0.0963, Test Accuracy= 0.968
+Step 28800, Minibatch Loss= 0.0998, Test Accuracy= 0.974
+Step 29000, Minibatch Loss= 0.0541, Test Accuracy= 0.988
+Step 29200, Minibatch Loss= 0.0770, Test Accuracy= 0.978
+Step 29400, Minibatch Loss= 0.0474, Test Accuracy= 0.988
+Step 29600, Minibatch Loss= 0.0570, Test Accuracy= 0.980
+Step 29800, Minibatch Loss= 0.0539, Test Accuracy= 0.987
+Decaying learning rate: 0.00063 -> 0.0006
+Step 30000, Minibatch Loss= 0.0717, Test Accuracy= 0.979
+Step 30200, Minibatch Loss= 0.0701, Test Accuracy= 0.983
+Step 30400, Minibatch Loss= 0.0821, Test Accuracy= 0.979
+Step 30600, Minibatch Loss= 0.0338, Test Accuracy= 0.989
+Step 30800, Minibatch Loss= 0.0936, Test Accuracy= 0.979
+Step 31000, Minibatch Loss= 0.0385, Test Accuracy= 0.990
+Step 31200, Minibatch Loss= 0.1633, Test Accuracy= 0.948
+Step 31400, Minibatch Loss= 0.0607, Test Accuracy= 0.982
+Step 31600, Minibatch Loss= 0.0586, Test Accuracy= 0.985
+Step 31800, Minibatch Loss= 0.0671, Test Accuracy= 0.982
+Step 32000, Minibatch Loss= 0.0564, Test Accuracy= 0.988
+Step 32200, Minibatch Loss= 0.0593, Test Accuracy= 0.985
+Step 32400, Minibatch Loss= 0.0472, Test Accuracy= 0.986
+Step 32600, Minibatch Loss= 0.0629, Test Accuracy= 0.982
+Step 32800, Minibatch Loss= 0.0654, Test Accuracy= 0.983
+Decaying learning rate: 0.0006 -> 0.00057
+Step 33000, Minibatch Loss= 0.0445, Test Accuracy= 0.985
+Step 33200, Minibatch Loss= 0.0418, Test Accuracy= 0.988
+Step 33400, Minibatch Loss= 0.0469, Test Accuracy= 0.982
+Step 33600, Minibatch Loss= 0.0272, Test Accuracy= 0.992
+Step 33800, Minibatch Loss= 0.0577, Test Accuracy= 0.985
+Step 34000, Minibatch Loss= 0.0474, Test Accuracy= 0.987
+Step 34200, Minibatch Loss= 0.0568, Test Accuracy= 0.988
+Step 34400, Minibatch Loss= 0.0434, Test Accuracy= 0.989
+Step 34600, Minibatch Loss= 0.0650, Test Accuracy= 0.985
+Step 34800, Minibatch Loss= 0.0596, Test Accuracy= 0.983
+Step 35000, Minibatch Loss= 0.0821, Test Accuracy= 0.982
+Step 35200, Minibatch Loss= 0.0479, Test Accuracy= 0.988
+Step 35400, Minibatch Loss= 0.0367, Test Accuracy= 0.990
+Step 35600, Minibatch Loss= 0.0749, Test Accuracy= 0.982
+Step 35800, Minibatch Loss= 0.0271, Test Accuracy= 0.991
+Decaying learning rate: 0.00057 -> 0.00054
+Step 36000, Minibatch Loss= 0.0430, Test Accuracy= 0.985
+Optimization Finished!
+Statistics on the test set average accuracy 0.9867 +- 0.007297 (averaged over 40 test batches of size 256) 
